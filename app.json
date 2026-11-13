@@ -1,0 +1,53 @@
+{
+  "name": "power-system-fault-detection",
+  "description": "Machine learning model and Streamlit web app that detect and classify power system faults (Line Breakage, Transformer Failure, Overheating) from electrical and environmental measurements. Problem Statement No. 41, IBM Skills Build for University Engagements (AICTE-2026).",
+  "keywords": [
+    "machine-learning",
+    "power-systems",
+    "fault-detection",
+    "random-forest",
+    "xgboost",
+    "streamlit",
+    "ibm-cloud",
+    "watson-studio",
+    "autoai"
+  ],
+  "repository": "https://github.com/<your-username>/<your-repo-name>",
+  "author": "Niranjana P",
+  "domain": "Energy / Electrical Engineering",
+  "problem_statement": "41 - Power System Fault Detection and Classification",
+  "dataset": "https://www.kaggle.com/datasets/ziya07/power-system-faults-dataset",
+  "stack": {
+    "language": "Python 3.11",
+    "ml": [
+      "scikit-learn",
+      "xgboost"
+    ],
+    "app": "Streamlit",
+    "ibm_cloud_lite_services": [
+      "Cloud Object Storage",
+      "Watson Studio (AutoAI)",
+      "Watson Machine Learning"
+    ],
+    "ai_assistant": "IBM Bob"
+  },
+  "scripts": {
+    "install": "pip install -r requirements.txt",
+    "train": "python train.py",
+    "start": "streamlit run app.py"
+  },
+  "env": {
+    "IBM_API_KEY": {
+      "description": "IBM Cloud API key (only for deploy_wml.py)",
+      "required": false
+    },
+    "WML_URL": {
+      "description": "Watson Machine Learning URL",
+      "required": false
+    },
+    "WML_SPACE_ID": {
+      "description": "Deployment space ID",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "Voltage (V)": {
+    "min": 1800.0,
+    "max": 2300.0,
+    "mean": 2049.6363636363635
+  },
+  "Current (A)": {
+    "min": 180.0,
+    "max": 250.0,
+    "mean": 216.4584980237154
+  },
+  "Power Load (MW)": {
+    "min": 45.0,
+    "max": 55.0,
+    "mean": 50.01185770750988
+  },
+  "Temperature (\u00b0C)": {
+    "min": 20.0,
+    "max": 40.0,
+    "mean": 30.16600790513834
+  },
+  "Wind Speed (km/h)": {
+    "min": 10.0,
+    "max": 30.0,
+    "mean": 19.73913043478261
+  },
+  "Duration of Fault (hrs)": {
+    "min": 2.0,
+    "max": 6.0,
+    "mean": 4.008102766798419
+  },
+  "Down time (hrs)": {
+    "min": 1.0,
+    "max": 7.0,
+    "mean": 3.9998023715415023
+  },
+  "Weather Condition_Clear": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.21739130434782608
+  },
+  "Weather Condition_Rainy": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.23122529644268774
+  },
+  "Weather Condition_Snowy": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.18181818181818182
+  },
+  "Weather Condition_Thunderstorm": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.1976284584980237
+  },
+  "Weather Condition_Windstorm": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.17193675889328064
+  },
+  "Maintenance Status_Completed": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.34189723320158105
+  },
+  "Maintenance Status_Pending": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.3221343873517787
+  },
+  "Maintenance Status_Scheduled": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.3359683794466403
+  },
+  "Component Health_Faulty": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.3142292490118577
+  },
+  "Component Health_Normal": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.3438735177865613
+  },
+  "Component Health_Overheated": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.34189723320158105
+  }
+}
